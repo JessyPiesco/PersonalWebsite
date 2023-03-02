@@ -1,18 +1,259 @@
-body {
-  font-family: 'Raleway', Arial, sans-serif;
-  height: 100vh;
-  width: 100vw;
+@import url("https://fonts.googleapis.com/css2?family=Molle&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar {
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  background-color: #343a40;
+  color: #f8f9fa;
+}
+
+.navbar-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  padding-right: 20px;
+}
+
+.nav-link {
+  color: #f8f9fa;
+  margin-right: 20px;
+  padding-right: 20px;
+  font-size: 18px;
+}
+
+/* .nav-link:last-of-type {
+  margin-right: 150px;
+} */
+
+.nav-link:hover {
+  color: #007bff;
 }
 
 
-#navbar {
-  font-family: 'Poller One', Arial, sans-serif;
-  flex-grow: 1;
-  max-height: 10%;
-  min-height: 40px;
-  background-color: #222222;
-  color: white;
+
+.buttons {
+  cursor: pointer;
+  font-size: 20px;
+  margin-right: 10px;
+  color: black;
+}
+#about {
+  border: 1px solid;
+}
+.buttons:hover {
+  color: darkslategray;
+}
+
+/* home */
+
+#title1 {
+  font-family: "Molle", cursive;
+  font-size: 35px;
+  text-decoration: underline;
+  text-align: start;
+  background-color: #343a40;
+  color: #0D47A1;
+  margin-top: 80px;
+  margin-bottom: 200px;
+  vertical-align: top important!;
+}
+
+
+#home h4 {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+#Quote {
+  text-align: center;
+  background-color: rgb(190, 184, 184);
+  width: 50%;
+  height: 60vh;
+  border-radius: 20px;
+  margin: 50px auto;
   display: flex;
+  justify-content: center;
   align-items: center;
+  font-family: "Molle", cursive;
+  font-size: 25px;
+  padding: 1rem;
+}
+
+#home {
+  border: 1px solid;
+  background-color: #343a40;
+  color: #FFFFFF;
+  padding: 3rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+
+
+/* home */
+
+
+.makeItSo {
+  text-align: center;
+  justify-content: center;
+  display: block;
+  color: rgb(36, 71, 174);
+}
+
+body {
+  background-color: lightgray;
+  color: black;
+  margin-bottom: 50px;
+  margin-top: 100px;
+  font-family: "Acme", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+img {
+  width: 150px;
+  height: 200px;
+  border-radius: 50px;
+  object-fit: cover;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row;
+  align-content: center;
+  border: 5px;
+  border-color: gray;
+}
+
+#backgammon {
+  background-color: gray;
+  font-size: 15px;
+  color: black;
+  height: 150px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+#makingMoney {
+  background-color: gray;
+  font-size: 15px;
+  color: black;
+  height: 150px;
+}
+.proNames {
+  text-decoration: underline;
+}
+
+.projectPics {
+  height: 100px;
+  width: 130px;
+  display: inline-block;
+  justify-content: space-between;
+  object-fit: fill;
+  float: right;
+  margin-left: 5px;
+}
+#port {
+  border: 1px solid;
+}
+.logos {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+footer {
+  background-color: gray;
+  font-family: "Acme", sans-serif;
+  font-size: 20px;
+  color: rgb(36, 71, 174);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.about-jessy {
+  margin-top: 80px;
+  /* margin-left: 20px; */
+  margin-right: 20px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  background-color: #0D47A1;
+  color: #FFFFFF;
+}
+
+.about-jessy h2 {
+  color: #FFFFFF;
+}
+
+.about-jessy p {
+  color: #FFFFFF;
+}
+
+.family {
+  margin-top: 40px;
+  text-align: center;
+  background-color: #FFFFFF;
+  color: #0D47A1;
+  padding: 40px;
+  background-color: #343a40;
+}
+
+.family h2 {
+  color: #FFFFFF;
+}
+
+.family p {
+  color: #FFFFFF;
+}
+
+.family img {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.about-jessy img {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.row.about-jessy {
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-jessy .col-md-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
