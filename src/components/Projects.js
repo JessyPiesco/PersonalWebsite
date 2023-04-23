@@ -1,4 +1,5 @@
 import React from "react";
+import space from '../pictures/solarsytem.png';
 
 const Projects = () => {
   return (
@@ -6,10 +7,13 @@ const Projects = () => {
 
 
       <p><h2>Here is a list of some of my projects</h2></p>
-    <p><div id="backgammon"><h3>
-      <img src="/Pictures/backgammon.jpeg" alt="backgammon" className="projectPics"/><p className="proNames">Backgammon</p> </h3>
-      <p>Backgammon is a fun two player game, play against the computer or your buddy. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi at earum fuga harum alias nobis, eaque optio laudantium dolor sed eligendi consequatur distinctio aperiam accusantium, architecto exercitationem perferendis minus error.
-        Fuga dolore impedit suscipit, vero odit, sequi in deleniti, odio ipsa facere et. Consequatur modi cum ullam adipisci unde amet qui sed odio officia ipsa omnis earum quibusdam, dolor totam?
+    <p><div id="solar">
+      <img src={space} alt="space" className="projectPics"/>
+      <button onClick={() => window.location.href="https://planetquack.onrender.com/"}>
+  <p className="proNames">Solar System</p>
+</button>
+
+      <p>Our team recently completed a Quackathon project, a visually-stunning solar system website with unique planet profile pages, created entirely out of CSS! As the primary backend developer, I utilized PostgreSQL, Node.js, and Express to build a RESTful API and implemented foreign keys to ensure data was stored efficiently. Additionally, I collaborated with the front-end team to develop the quiz, ensuring questions and answers were displayed correctly.
       </p>
     </div></p>
     <p>
