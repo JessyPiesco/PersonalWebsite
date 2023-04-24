@@ -10,11 +10,9 @@ const Navbar = () => {
           Portfolio
         </NavLink>
         <NavLink className="nav-link" to="/">
-          Home
+          About me
         </NavLink>
-        <NavLink className="nav-link" to="/aboutme">
-          About
-        </NavLink>
+
       </div>
     </nav>
   );

@@ -1,14 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Molle&display=swap");
+
 @import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.container {
+/* .container {
   display: flex;
   justify-content: space-between;
-}
+} */
 
 .navbar {
   width: 100vw;
@@ -40,153 +40,43 @@
   font-size: 18px;
 }
 
-/* .nav-link:last-of-type {
-  margin-right: 150px;
-} */
-
 .nav-link:hover {
   color: #007bff;
 }
 
 
 
-.buttons {
-  cursor: pointer;
-  font-size: 20px;
-  margin-right: 10px;
-  color: black;
-}
-#about {
-  border: 1px solid;
-}
-.buttons:hover {
-  color: darkslategray;
-}
-
-/* home */
-
-#title1 {
-  font-family: "Molle", cursive;
-  font-size: 35px;
-  text-decoration: underline;
-  text-align: start;
-  background-color: #343a40;
-  color: #0D47A1;
-  margin-top: 80px;
-  margin-bottom: 200px;
-  vertical-align: top important!;
-}
-
-
-#home h4 {
-  margin-top: 20px;
-  margin-bottom: 50px;
-}
-
-#Quote {
-  text-align: center;
-  background-color: rgb(190, 184, 184);
-  width: 50%;
-  height: 60vh;
-  border-radius: 20px;
-  margin: 50px auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Molle", cursive;
-  font-size: 25px;
-  padding: 1rem;
-}
-
-#home {
-  border: 1px solid;
-  background-color: #343a40;
-  color: #FFFFFF;
-  padding: 3rem;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-
-
-
-
-/* home */
-
-
-.makeItSo {
-  text-align: center;
-  justify-content: center;
-  display: block;
-  color: rgb(36, 71, 174);
-}
-
-body {
-  background-color: lightgray;
-  color: black;
-  margin-bottom: 50px;
-  margin-top: 100px;
-  font-family: "Acme", sans-serif;
-  font-size: 20px;
-  text-align: center;
-}
-
 img {
   width: 150px;
   height: 200px;
   border-radius: 50px;
   object-fit: cover;
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  flex-direction: row;
-  align-content: center;
   border: 5px;
   border-color: gray;
 }
 
-#backgammon {
-  background-color: gray;
-  font-size: 15px;
-  color: black;
-  height: 150px;
-  margin-bottom: 30px;
-  margin-top: 10px;
+.project-container {
+  width: 100%;
+  background-color: #343a40;
 }
 
-#makingMoney {
-  background-color: gray;
-  font-size: 15px;
-  color: black;
-  height: 150px;
-}
 .proNames {
   text-decoration: underline;
 }
 
 .projectPics {
+  justify-content: flex-end;
   height: 100px;
   width: 130px;
   display: inline-block;
-  justify-content: space-between;
   object-fit: fill;
   float: right;
-  margin-left: 5px;
+  margin-left: auto;
+
 }
-#port {
-  border: 1px solid;
-}
-.logos {
-  width: 16px;
-  height: 16px;
-  border-radius: 2px;
-  margin-right: 5px;
-  margin-left: 10px;
-}
-footer {
-  background-color: gray;
+
+#footer {
+  background-color: #343a40;
   font-family: "Acme", sans-serif;
   font-size: 20px;
   color: rgb(36, 71, 174);
@@ -199,7 +89,6 @@ footer {
 
 .about-jessy {
   margin-top: 80px;
-  /* margin-left: 20px; */
   margin-right: 20px;
   text-align: center;
   padding-top: 20px;
@@ -224,6 +113,12 @@ footer {
   padding: 40px;
   background-color: #343a40;
 }
+#projects{
+  width: 100%;
+  color: #FFFFFF;
+  background-color: #343a40;
+}
+
 
 .family h2 {
   color: #FFFFFF;
