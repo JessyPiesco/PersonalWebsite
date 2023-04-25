@@ -8,7 +8,6 @@ const Main = () => {
       <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/aboutme" element={<AboutMe />} />
           <Route path="/projects" element={<Projects/>}/>
         </Routes>
       <Footer />

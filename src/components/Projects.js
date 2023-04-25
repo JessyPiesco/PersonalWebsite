@@ -8,7 +8,7 @@ import snake from "../pictures/snake_game.png";
   const Projects = () => {
     const img = new Image();
     return (
-      <Container id="projects">
+      <div id="projects" className="container-fluid">
         <div className="d-flex flex-column">
           <h2>Here is a list of some of my projects</h2>
 
@@ -63,7 +63,7 @@ import snake from "../pictures/snake_game.png";
 
           </div>
         </div>
-      </Container>
+        </div>
     );
 
 

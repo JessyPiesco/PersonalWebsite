@@ -5,12 +5,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* .container {
+.container {
   display: flex;
   justify-content: space-between;
-} */
+}
 
-.navbar {
+ .navbar {
   width: 100vw;
   height: 100px;
   display: flex;
@@ -19,9 +19,9 @@
   padding: 0 1rem;
   background-color: #343a40;
   color: #f8f9fa;
-}
+} */
 
-.navbar-nav{
+ .navbar-nav{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -38,9 +38,9 @@
   margin-right: 20px;
   padding-right: 20px;
   font-size: 18px;
-}
+} */
 
-.nav-link:hover {
+ .nav-link:hover {
   color: #007bff;
 }
 
@@ -55,7 +55,7 @@ img {
   border-color: gray;
 }
 
-.project-container {
+ .project-container {
   width: 100%;
   background-color: #343a40;
 }
@@ -89,7 +89,6 @@ img {
 
 .about-jessy {
   margin-top: 80px;
-  margin-right: 20px;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 50px;
@@ -143,6 +142,24 @@ img {
 .row.about-jessy {
   flex-direction: column;
 }
+.sides-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  min-height: 200px;
+}
+
+.sides-content {
+  margin: auto;
+}
+.binary{
+  margin-top: 100px;
+  text-align: center;
+  background-color: #343a40;
+  color: #FFFFFF;
+}
+
 
 @media only screen and (min-width: 768px) {
   .about-jessy .col-md-6 {
