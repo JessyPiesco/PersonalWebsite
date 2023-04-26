@@ -1,5 +1,6 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -10,41 +11,42 @@
   justify-content: space-between;
 }
 
- .navbar {
+.navbar {
   width: 100vw;
   height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 1rem;
-  background-color: #343a40;
-  color: #f8f9fa;
-} */
+  background-color: #343a40 !important;
+  color: #f8f9fa !important;
+}
 
- .navbar-nav{
+.navbar-nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  color: #f8f9fa !important;
 }
 
 .navbar-brand {
-  font-size: 24px;
-  padding-right: 20px;
+  padding-left: 5%;
+  font-size: 30px !important;
+  font-family: "Space Mono", monospace;
+  color: greenyellow !important;
 }
 
 .nav-link {
-  color: #f8f9fa;
+  color: #ffffff !important;
   margin-right: 20px;
   padding-right: 20px;
   font-size: 18px;
-} */
-
- .nav-link:hover {
-  color: #007bff;
 }
 
-
+.nav-link:hover {
+  color: #007bff !important;
+}
 
 img {
   width: 150px;
@@ -55,7 +57,7 @@ img {
   border-color: gray;
 }
 
- .project-container {
+.project-container {
   width: 100%;
   background-color: #343a40;
 }
@@ -72,7 +74,6 @@ img {
   object-fit: fill;
   float: right;
   margin-left: auto;
-
 }
 
 #footer {
@@ -88,43 +89,42 @@ img {
 }
 
 .about-jessy {
-  margin-top: 80px;
   text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-top: 20px;
   padding-bottom: 50px;
-  background-color: #0D47A1;
-  color: #FFFFFF;
+  background-color: rgb(2, 21, 2);
+  color: #ffffff;
 }
 
 .about-jessy h2 {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .about-jessy p {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .family {
-  margin-top: 40px;
+  padding-top: 80px;
   text-align: center;
-  background-color: #FFFFFF;
-  color: #0D47A1;
   padding: 40px;
   background-color: #343a40;
+  color: #ffffff;
 }
-#projects{
+#projects {
   width: 100%;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #343a40;
 }
 
-
 .family h2 {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .family p {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .family img {
@@ -142,7 +142,7 @@ img {
 .row.about-jessy {
   flex-direction: column;
 }
-.sides-container {
+/* .sides-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -152,14 +152,23 @@ img {
 
 .sides-content {
   margin: auto;
-}
-.binary{
-  margin-top: 100px;
+} */
+.binary {
   text-align: center;
   background-color: #343a40;
-  color: #FFFFFF;
+  color: greenyellow;
+  max-height: 100vh;
+  position: sticky;
+  top: 0;
+  overflow-y: auto;
 }
 
+.logos {
+  padding-top: 20px;
+  text-align: center;
+  background-color: #343a40;
+  color: #ffffff;
+}
 
 @media only screen and (min-width: 768px) {
   .about-jessy .col-md-6 {
@@ -167,5 +176,8 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .col-2 {
+    width: 100%;
   }
 }

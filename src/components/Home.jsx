@@ -1,77 +1,86 @@
 import React from "react";
 import sophiaandI from "../pictures/SophiaandI.jpeg";
-import meInMexico from "../pictures/meInMexico.jpeg";
 import justinAndMe from "../pictures/JustinandMe.jpeg";
 import bootstrap from "../pictures/Bootstrap.png";
 import CSS from "../pictures/CSS.png";
 import Html from "../pictures/Html.png";
 import JavaScript from "../pictures/Javascript.png";
 import PostgreSQL from "../pictures/PostgreSQ.png";
-import ReactLogo from "../pictures/React.png"
+import ReactLogo from "../pictures/React.png";
+import ComputerGirl from "../pictures/computerGirl.jpeg"
 
 import LeftSide from "./LeftSide";
 import RightSide from "./RightSide";
+
 const Home = () => {
   return (
     <>
       <div id="aboutMe" className="container-fluid">
         <div className="row">
-          <div className="col-2 order-md-first sides-container p-0" >
+          <div className="col-lg-2 col-12 order-md-first sides-container pb-1 p-0">
             <LeftSide />
           </div>
-          <div className="col-12 col-md-8 about-jessy">
-            <h2>About Jessy</h2>
-            <p>
-              I am a 36-year-old mother and self-proclaimed geek. I find great
-              joy in playing games, coding, and solving problems. While I
-              started my career in sales at the young age of 16, I have since
-              discovered a passion for coding that allows me to create something
-              from start to finish. As a neroDivergent individual with ADHD, I
-              face challenges, but it also allows me to see things from a
-              different perspective than others. I tend to grasp concepts
-              quickly and am skilled at adapting the steps to my own projects.
-              In past jobs, I have been a part of training new hires as I work
-              well with others and understand different learning styles to help
-              them learn in their own way. I am excited to take on new
-              challenges and achieve new goals in my coding career.
-            </p>
-            <h2>Proficient in these languages</h2>
-<div className="logos py-4">
-  <div className="row">
-    <div className="col-md-2">
-      <div className="logo-item bg-light p-3 text-center rounded-circle">
-        <img src={JavaScript} alt="JavaScript Logo" className="img-fluid"/>
+          <div className="col-12 col-md-8 p-0">
+            <div className="about-jessy">
+              <h2>About Jessy</h2>
+              <p>
+                I am a 37-year-old mother and self-proclaimed geek. I find great
+                joy in playing games, coding, and solving problems. While I
+                started my career in sales at the young age of 16, I have since
+                discovered a passion for coding that allows me to create something
+                from start to finish. As a neroDivergent individual with ADHD, I
+                face challenges, but it also allows me to see things from a
+                different perspective than others. I tend to grasp concepts
+                quickly and am skilled at adapting the steps to my own projects.
+                In past jobs, I have been a part of training new hires as I work
+                well with others and understand different learning styles to help
+                them learn in their own way. I am excited to take on new
+                challenges and achieve new goals in my coding career.
+              </p>
+            </div>
+            <div className="logos pt-2 pb-4 p-0">
+  <h2>Proficient in these languages</h2>
+  <div className="logos-container py-4 mx-auto">
+    <div className="row justify-content-center">
+      <div className="col-md-2">
+        <div className="logo-item bg-light p-3 text-center rounded-circle">
+          <img src={JavaScript} alt="JavaScript Logo" className="img-fluid" />
+        </div>
+      </div>
+      <div className="col-md-2">
+        <div className="logo-item bg-light p-3 text-center rounded-circle">
+          <img src={bootstrap} alt="Bootstrap Logo" className="img-fluid" />
+        </div>
+      </div>
+      <div className="col-md-2">
+        <div className="logo-item bg-light p-3 text-center rounded-circle">
+          <img src={ReactLogo} alt="React Logo" className="img-fluid" />
+        </div>
+      </div>
+      <div className="col-md-2">
+        <div className="logo-item bg-light p-3 text-center rounded-circle">
+          <img src={CSS} alt="CSS Logo" className="img-fluid" />
+        </div>
       </div>
     </div>
-    <div className="col-md-2">
-      <div className="logo-item bg-light p-3 text-center rounded-circle">
-        <img src={bootstrap} alt="Bootstrap Logo" className="img-fluid"/>
+    <div className="row justify-content-center pt-3" >
+      <div className="col-md-2">
+        <div className="logo-item bg-light p-3 text-center rounded-circle">
+          <img src={PostgreSQL} alt="PostgreSQL Logo" className="img-fluid" />
+        </div>
       </div>
-    </div>
-    <div className="col-md-2">
-      <div className="logo-item bg-light p-3 text-center rounded-circle">
-        <img src={ReactLogo}alt="React Logo" className="img-fluid"/>
-      </div>
-    </div>
-    <div className="col-md-2">
-      <div className="logo-item bg-light p-3 text-center rounded-circle">
-        <img src={PostgreSQL} alt="PostgreSQL Logo" className="img-fluid"/>
-      </div>
-    </div>
-    <div className="col-md-2">
-      <div className="logo-item bg-light p-3 text-center rounded-circle">
-        <img src={CSS} alt="CSS Logo" className="img-fluid"/>
-      </div>
-    </div>
-    <div className="col-md-2">
-      <div className="logo-item bg-light p-3 text-center rounded-circle">
-        <img src={Html} alt="HTML Logo" className="img-fluid"/>
+
+      <div className="col-md-2">
+        <div className="logo-item bg-light p-3 text-center rounded-circle">
+          <img src={Html} alt="HTML Logo" className="img-fluid" />
+        </div>
       </div>
     </div>
   </div>
 </div>
 
 
+            <div className="family pb-5 p-0">
             <h2>Family</h2>
             <div className="row" id="1stPics">
               <div className="col-12 col-md-6">
@@ -112,10 +121,19 @@ const Home = () => {
                   we like to host game nights with our friends and indulge in
                   our love for all things nerdy.
                 </p>
+                <img
+  src={ComputerGirl}
+  alt="Ai girl on computer"
+  className="img-fluid"
+  style={{ height: "30%" }}
+/>
               </div>
+
+
             </div>
+</div>
           </div>
-          <div className="col-2 order-md-last sides-container p-0">
+          <div className="col-lg-2 col-12 order-md-last sides-container  pb-1 p-0">
             <RightSide />
           </div>
         </div>
