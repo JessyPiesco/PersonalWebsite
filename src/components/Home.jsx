@@ -24,18 +24,8 @@ const Home = () => {
             <div className="about-jessy">
               <h2>About Jessy</h2>
               <p>
-                I am a 37-year-old mother and self-proclaimed geek. I find great
-                joy in playing games, coding, and solving problems. While I
-                started my career in sales at the young age of 16, I have since
-                discovered a passion for coding that allows me to create something
-                from start to finish. As a neroDivergent individual with ADHD, I
-                face challenges, but it also allows me to see things from a
-                different perspective than others. I tend to grasp concepts
-                quickly and am skilled at adapting the steps to my own projects.
-                In past jobs, I have been a part of training new hires as I work
-                well with others and understand different learning styles to help
-                them learn in their own way. I am excited to take on new
-                challenges and achieve new goals in my coding career.
+              As a 37-year-old mother and self-proclaimed geek, I am a Colorado native who finds great joy in playing games, coding, and solving problems. Although I started my career in sales at the young age of 16, I have discovered a passion for coding that allows me to create something from start to finish. Being neurodivergent with ADHD, I face challenges, but it also provides me with great pattern recognition and a unique perspective. I have a knack for grasping concepts quickly and am skilled at adapting the steps to my own projects. In my past jobs, I have enjoyed training new hires as I work well with others and understand different learning styles to help them learn in their own way. I particularly love backend work and am excited to take on new challenges and achieve new goals in my coding career.<br/><br/>
+              <strong>•Favorite Movie:</strong> Startrek 2008  <strong>•Favortie Book:</strong> Wheel of Time Series  <strong>•Favorite Console Game: </strong>Horizon Zero Dawn  <strong>•Favorite Tabletop Game:</strong> Dominion
               </p>
             </div>
             <div className="logos pt-2 pb-4 p-0">
@@ -44,35 +34,35 @@ const Home = () => {
     <div className="row justify-content-center">
       <div className="col-md-2">
         <div className="logo-item bg-light p-3 text-center rounded-circle">
-          <img src={JavaScript} alt="JavaScript Logo" className="img-fluid" />
+          <img src={JavaScript} alt="JavaScript Logo" className="img-fluid" id="js"/>
         </div>
       </div>
       <div className="col-md-2">
         <div className="logo-item bg-light p-3 text-center rounded-circle">
-          <img src={bootstrap} alt="Bootstrap Logo" className="img-fluid" />
+          <img src={bootstrap} alt="Bootstrap Logo" className="img-fluid" id="bs"/>
         </div>
       </div>
       <div className="col-md-2">
         <div className="logo-item bg-light p-3 text-center rounded-circle">
-          <img src={ReactLogo} alt="React Logo" className="img-fluid" />
+          <img src={ReactLogo} alt="React Logo" className="img-fluid" id="rl" />
         </div>
       </div>
       <div className="col-md-2">
         <div className="logo-item bg-light p-3 text-center rounded-circle">
-          <img src={CSS} alt="CSS Logo" className="img-fluid" />
+          <img src={CSS} alt="CSS Logo" className="img-fluid" id="css"/>
         </div>
       </div>
     </div>
     <div className="row justify-content-center pt-3" >
       <div className="col-md-2">
         <div className="logo-item bg-light p-3 text-center rounded-circle">
-          <img src={PostgreSQL} alt="PostgreSQL Logo" className="img-fluid" />
+          <img src={PostgreSQL} alt="PostgreSQL Logo" className="img-fluid" id="psql"/>
         </div>
       </div>
 
       <div className="col-md-2">
         <div className="logo-item bg-light p-3 text-center rounded-circle">
-          <img src={Html} alt="HTML Logo" className="img-fluid" />
+          <img src={Html} alt="HTML Logo" className="img-fluid" id="html" />
         </div>
       </div>
     </div>

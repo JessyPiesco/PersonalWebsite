@@ -2,15 +2,20 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div id="footer">
+    <div id="footer" class="d-flex justify-content-center align-items-center">
+    <span class="pr-2">Connect with me:</span>
+    <span class="ml-3">
+      <a href="https://www.linkedin.com/in/jessypiesco/" class="text-light">•LinkedIn</a>
+    </span>
+    <span class="ml-3">
+      <a href="https://github.com/JessyPiesco" class="text-light">•GitHub</a>
+    </span>
+    <span class="ml-3">
+      <a href="mailto:japiesco@outlook.com" class="text-light">•Contact Me</a>
+    </span>
 
-      Connect with me:
-      {/* <a href="https://www.facebook.com/jessy.parker.16">
-        <img src="/Pictures/FB.png" className="logos" alt="facebook link"></a>
-      <a href="https://www.linkedin.com/in/jessica-piesco-60622513a">
-        <img src="/Pictures/linkedin.png" className="logos" alt="Linkedin link"></a> */}
+  </div>
 
-    </div>
   );
 };
 

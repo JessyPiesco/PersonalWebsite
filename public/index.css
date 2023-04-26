@@ -75,25 +75,36 @@ img {
   float: right;
   margin-left: auto;
 }
+.Ptitles{
+  color: greenyellow
+}
 
 #footer {
   background-color: #343a40;
-  font-family: "Acme", sans-serif;
   font-size: 20px;
-  color: rgb(36, 71, 174);
+  font-family: "Space Mono", monospace;
+  color: greenyellow !important;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+#footer a {
+  margin: 0 10px;
+}
+
+
 
 .about-jessy {
   text-align: center;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   background-color: rgb(2, 21, 2);
   color: #ffffff;
 }
@@ -142,17 +153,7 @@ img {
 .row.about-jessy {
   flex-direction: column;
 }
-/* .sides-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100vh;
-  min-height: 200px;
-}
 
-.sides-content {
-  margin: auto;
-} */
 .binary {
   text-align: center;
   background-color: #343a40;
@@ -160,7 +161,7 @@ img {
   max-height: 100vh;
   position: sticky;
   top: 0;
-  overflow-y: auto;
+  overflow-y: hidden;
 }
 
 .logos {
@@ -168,6 +169,17 @@ img {
   text-align: center;
   background-color: #343a40;
   color: #ffffff;
+}
+
+#html:hover::before {
+  content: "HTML";
+  display: block !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  background-color: #fff !important;
+  padding: 5px !important;
+  border: 1px solid #000 !important;
 }
 
 @media only screen and (min-width: 768px) {
