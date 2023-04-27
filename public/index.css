@@ -182,14 +182,21 @@ img {
   border: 1px solid #000 !important;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .about-jessy .col-md-6 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .col-2 {
-    width: 100%;
+
+  .binary {
+  max-height: 45vh !important;
+  }
+  .navbar-brand {
+    font-size: 25px!important;
+  }
+  .navbar-nav {
+    padding-left: 30px !important;
   }
 }
