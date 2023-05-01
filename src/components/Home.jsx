@@ -21,7 +21,7 @@ const Home = () => {
             <LeftSide />
           </div>
           <div className="col-12 col-md-8 p-0">
-            <div className="about-jessy">
+            <div className="about-jessy rounded p-3">
               <h2>About Jessy</h2>
               <p>
               As a 37-year-old mother and self-proclaimed geek, I am a Colorado native who finds great joy in playing games, coding, and solving problems. Although I started my career in sales at the young age of 16, I have discovered a passion for coding that allows me to create something from start to finish. Being neurodivergent with ADHD, I face challenges, but it also provides me with great pattern recognition and a unique perspective. I have a knack for grasping concepts quickly and am skilled at adapting the steps to my own projects. In my past jobs, I have enjoyed training new hires as I work well with others and understand different learning styles to help them learn in their own way. I particularly love backend work and am excited to take on new challenges and achieve new goals in my coding career.<br/><br/>
