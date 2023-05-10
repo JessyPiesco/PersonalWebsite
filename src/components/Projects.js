@@ -57,7 +57,7 @@ const Projects = () => {
               We have developed a Discord bot designed to assist
               junior developers in honing their skills. By entering the "!quiz"
               command, users can access a variety of programming languages and test their knowledge. They can choose to answer general quiz questions or focus on interview questions to prepare for job interviews.
-              Directions for using the bot are in the readMe.
+              Directions for using the bot are in the README.
             </p>
             <Button
               variant="outline-secondary"
