@@ -122,6 +122,16 @@ img {
   color: #ffffff;
 
 }
+.Certificates {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #ffffff;
+}
 
 .family {
   padding-top: 80px;

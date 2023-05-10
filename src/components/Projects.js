@@ -4,6 +4,7 @@ import gryffinP from "../pictures/gryffin_puffs.png";
 import space from "../pictures/solarsytem.png";
 import snake from "../pictures/snake_game.png";
 import qrcode from "../pictures/qrcode.png";
+import bot from "../pictures/Screen_Shot.png";
 import LeftSide from "./LeftSide";
 import RightSide from "./RightSide";
 
@@ -22,32 +23,13 @@ const Projects = () => {
 
           <div className="project-container">
             <h3 className="Ptitles">Works in progress:</h3>
-            <h5 className="col-4 border-bottom pt-4">Quack Bot</h5>
+            <h5 className="border-bottom col-4 pt-3">C.O.R.K.S</h5>
             <p>
-              We are currently developing a Discord bot designed to assist
-              junior developers in honing their skills. By entering the "!quiz"
-              command, users can access a variety of programming languages and
-              test their knowledge. They can choose to answer general quiz
-              questions or focus on interview questions to prepare for job
-              interviews.
-            </p>
-            <Button
-              variant="outline-secondary"
-              size="sm"
-              onClick={() =>
-                (window.location.href =
-                  "https://github.com/Quackathon-Quiz-Bot")
-              }
-            >
-              <p className="proNames">Quack-Bot Repo</p>
-            </Button>
-            <h5 className="border-bottom col-4 pt-3">Wino's</h5>
-            <p>
-              Wino's is a dynamic full-stack web application designed to enhance
+              Corks(Community Of Reviewers & Knowledgeable Sippers) is a dynamic full-stack web application designed to enhance
               the wine drinking experience. Through its interactive platform,
               users can effortlessly rate, save, and favorite their preferred
               wines. Say goodbye to guessing games when trying out new wines as
-              Wino's provides a comprehensive and reliable rating system based
+              Corks provides a comprehensive and reliable rating system based
               on real user experiences. The app also lets you follow your
               friends and family to discover their favorite wines, as well as
               access the average price of each wine.
@@ -59,12 +41,34 @@ const Projects = () => {
                 (window.location.href = "https://github.com/The-winos")
               }
             >
-              <p className="proNames">Wino's Repo</p>
+              <p className="proNames">Corks Repo</p>
             </Button>
           </div>
 
           <div className="project-container pt-5 pb-5 ">
             <h3 className="Ptitles">Fully deployed projects:</h3>
+            <h5 className="col-4 border-bottom pt-4">Quack Bot</h5>
+            <img
+              src={bot}
+              alt="bot screen shot"
+              className="projectPics ml-3 mr-0 align-self-end"
+            />
+            <p>
+              We have developed a Discord bot designed to assist
+              junior developers in honing their skills. By entering the "!quiz"
+              command, users can access a variety of programming languages and test their knowledge. They can choose to answer general quiz questions or focus on interview questions to prepare for job interviews.
+              Directions for using the bot are in the readMe.
+            </p>
+            <Button
+              variant="outline-secondary"
+              size="sm"
+              onClick={() =>
+                (window.location.href =
+                  "https://github.com/Quackathon-Quiz-Bot")
+              }
+            >
+              <p className="proNames">Quack-Bot Repo</p>
+            </Button>
             <h5 className="border-bottom col-4 pt-3">Solar System</h5>
             <img
               src={space}

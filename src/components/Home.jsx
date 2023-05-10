@@ -7,7 +7,8 @@ import Html from "../pictures/Html.png";
 import JavaScript from "../pictures/Javascript.png";
 import PostgreSQL from "../pictures/PostgreSQ.png";
 import ReactLogo from "../pictures/React.png";
-import ComputerGirl from "../pictures/computerGirl.jpeg"
+import ComputerGirl from "../pictures/computerGirl.jpeg";
+import CSU from "../pictures/csu_certificate.png"
 
 import LeftSide from "./LeftSide";
 import RightSide from "./RightSide";
@@ -24,7 +25,7 @@ const Home = () => {
             <div className="about-jessy rounded p-3">
               <h2>About Jessy</h2>
               <p>
-              As a 37-year-old mother and self-proclaimed geek, I am a Colorado native who finds great joy in playing games, coding, and solving problems. Although I started my career in sales at the young age of 16, I have discovered a passion for coding that allows me to create something from start to finish. Being neurodivergent with ADHD, I face challenges, but it also provides me with great pattern recognition and a unique perspective. I have a knack for grasping concepts quickly and am skilled at adapting the steps to my own projects. In my past jobs, I have enjoyed training new hires as I work well with others and understand different learning styles to help them learn in their own way. I particularly love backend work and am excited to take on new challenges and achieve new goals in my coding career.<br/><br/>
+              As a 37-year-old mother and self-proclaimed geek, I am a Colorado native who finds great joy in playing games, coding, and solving problems. After graduating from FullStack Academy's bootcamp I received a certificate in web development from Colorado State University. I have discovered a passion for coding that allows me to create something from start to finish. Being neurodivergent with ADHD, I face challenges, but it also provides me with great pattern recognition and a unique perspective. I have a knack for grasping concepts quickly and am skilled at adapting the steps to my own projects. In my past jobs, I have enjoyed training new hires as I work well with others and understand different learning styles to help them learn in their own way. I particularly love backend work and am excited to take on new challenges and achieve new goals in my coding career.<br/><br/>
               <strong>•Favorite Movie:</strong> Startrek 2008  <strong>Favorite Book:</strong> Wheel of Time Series  <strong>•Favorite Console Game: </strong>Horizon Zero Dawn  <strong>•Favorite Tabletop Game:</strong> Dominion
               </p>
             </div>
@@ -68,6 +69,16 @@ const Home = () => {
     </div>
   </div>
 </div>
+
+<div className="Certificates pt-2 pb-4 p-0">
+  <h2>Certificate</h2>
+  <div className="col-md-12">
+    <div className="certificate-item text-center mx-auto">
+      <img src={CSU} alt="CSU Certificate" className="img-fluid" id="csu" style={{ width: '50%', height: 'auto', borderRadius: 0 }} />
+    </div>
+  </div>
+</div>
+
 
 
             <div className="family pb-5 p-0">
