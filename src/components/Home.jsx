@@ -74,7 +74,9 @@ const Home = () => {
   <h2>Certificate</h2>
   <div className="col-md-12">
     <div className="certificate-item text-center mx-auto">
+    <a href="/public_pics/csu_certificate.png" target="_blank">
       <img src={CSU} alt="CSU Certificate" className="img-fluid" id="csu" style={{ width: '50%', height: 'auto', borderRadius: 0 }} />
+      </a>
     </div>
   </div>
 </div>

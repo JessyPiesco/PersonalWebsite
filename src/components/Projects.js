@@ -48,11 +48,14 @@ const Projects = () => {
           <div className="project-container pt-5 pb-5 ">
             <h3 className="Ptitles">Fully deployed projects:</h3>
             <h5 className="col-4 border-bottom pt-4">Quack Bot</h5>
-            <img
-              src={bot}
-              alt="bot screen shot"
-              className="projectPics ml-3 mr-0 align-self-end"
-            />
+            <a href="/public_pics/Screen_Shot.png" target="_blank">
+  <img
+    src={bot}
+    alt="bot screen shot"
+    className="projectPics ml-3 mr-0 align-self-end"
+  />
+</a>
+
             <p>
               We have developed a Discord bot designed to assist
               junior developers in honing their skills. By entering the "!quiz"
@@ -70,11 +73,13 @@ const Projects = () => {
               <p className="proNames">Quack-Bot Repo</p>
             </Button>
             <h5 className="border-bottom col-4 pt-3">Solar System</h5>
+            <a href="/public_pics/solarsytem.png" target="_blank">
             <img
               src={space}
               alt="space"
               className="projectPics ml-3 mr-0 align-self-end"
             />
+            </a>
             <div id="solar" className="d-flex align-items-center">
               <p>
                 The Solar System project was created during a Quackathon
@@ -107,11 +112,12 @@ const Projects = () => {
             </Button>
 
             <h5 className="border-bottom col-4 pt-3">Accio Books</h5>
+            <a href="/public_pics/gryffin_puffs.png" target="_blank">
             <img
               src={gryffinP}
-              alt="Website"
+              alt="Book Website"
               className="projectPics ml-3 mr-0 align-self-end"
-            />
+            /></a>
             <div id="puffs" className="d-flex align-items-center">
               <p>
                 Accio Books is a comprehensive full-stack application that
@@ -150,11 +156,12 @@ const Projects = () => {
             </Button>
 
             <h5 className="border-bottom col-4 pt-3">Snake</h5>
+            <a href="/public_pics/snake_game.png" target="_blank">
             <img
               src={snake}
               alt="snake_game"
               className="projectPics ml-3 mr-0 align-self-end"
-            />
+            /></a>
             <div id="snake" className="d-flex align-items-center">
               <p>
                 One of my first projects Snake is a fun and interactive digital
