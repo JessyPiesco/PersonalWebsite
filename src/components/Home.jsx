@@ -25,12 +25,13 @@ const Home = () => {
             <div className="about-jessy rounded p-3">
               <h2>About Jessy</h2>
               <p>
-              As a 37-year-old mother and self-proclaimed geek, I am a Colorado native who finds great joy in playing games, coding, and solving problems. After graduating from FullStack Academy's bootcamp I received a certificate in web development from Colorado State University. I have discovered a passion for coding that allows me to create something from start to finish. Being neurodivergent with ADHD, I face challenges, but it also provides me with great pattern recognition and a unique perspective. I have a knack for grasping concepts quickly and am skilled at adapting the steps to my own projects. In my past jobs, I have enjoyed training new hires as I work well with others and understand different learning styles to help them learn in their own way. I particularly love backend work and am excited to take on new challenges and achieve new goals in my coding career.<br/><br/>
-              <strong>•Favorite Movie:</strong> Startrek 2008  <strong>Favorite Book:</strong> Wheel of Time Series  <strong>•Favorite Console Game: </strong>Horizon Zero Dawn  <strong>•Favorite Tabletop Game:</strong> Dominion
+              As a 37-year-old mother and self-proclaimed geek, I am a Colorado native who finds great joy in playing games, coding, and solving problems. After graduating from FullStack Academy's bootcamp I received a certificate in web development from Colorado State University. I have discovered a passion for coding that allows me to create something from start to finish. Being neurodivergent with ADHD, I face obstacles, but it also provides me with great pattern recognition and a unique perspective. I have a knack for grasping concepts quickly and am skilled at adapting the steps to my own projects. In my past jobs, I have enjoyed training new hires as I work well with others and understand different learning styles to help them learn in their own way. I particularly love backend work and am excited to take on new challenges and achieve new goals in my coding career.<br/><br/>
+              <strong>Current skill building:</strong> <a href="https://itexperience.org/google-career-certificate-scholarship-program/" target="_blank" rel="noopener noreferrer">ITExperience </a> (Google Technical Support Fundamentals), <a href="https://discord.com/channels/1072704389447422056/1096564344633970709" target="_blank" rel="noopener noreferrer"> Discord Quackathon</a>, <a href="https://www.codecademy.com" target="_blank" rel="noopener noreferrer">codeCademy</a> (C++) <br/>
+              <strong>•Favorite Movie:</strong> Startrek 2009  <strong>•Favorite Book:</strong> Wheel of Time Series  <strong>•Favorite Console Game: </strong>Horizon Zero Dawn  <strong>•Favorite Tabletop Game:</strong> Dominion
               </p>
             </div>
             <div className="logos pt-2 pb-4 p-0">
-  <h2>Proficient in these languages</h2>
+  <h2 className="pt-4">Proficient in these languages</h2>
   <div className="logos-container py-4 mx-auto">
     <div className="row justify-content-center">
       <div className="col-md-2">
