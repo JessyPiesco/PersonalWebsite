@@ -1,4 +1,6 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+import MessageForm from "./MessageForm";
 
 const Footer = () => {
   return (
@@ -10,18 +12,10 @@ const Footer = () => {
       <span className="ml-3 d-none d-md-block">
         <a href="https://github.com/JessyPiesco" className="text-light">•GitHub</a>
       </span>
-      <span className="ml-3 d-none d-md-block">
-        <a href="mailto:japiesco@outlook.com" className="text-light">•Message</a>
-      </span>
-      <span className="ml-3 d-md-none">
-        <a href="https://www.linkedin.com/in/jessypiesco/" className="text-light">LinkedIn</a>
-      </span>
-      <span className="ml-3 d-md-none">
-        <a href="https://github.com/JessyPiesco" className="text-light">GitHub</a>
-      </span>
-      <span className="ml-3 d-md-none">
-        <a href="mailto:japiesco@outlook.com" className="text-light">Message</a>
-      </span>
+      <NavLink className="nav-link" to="/messageForm" style={{ textDecoration: 'underline' }}>
+  Message
+</NavLink>
+
     </div>
   );
 };

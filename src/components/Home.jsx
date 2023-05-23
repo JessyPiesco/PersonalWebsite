@@ -9,9 +9,11 @@ import PostgreSQL from "../pictures/PostgreSQ.png";
 import ReactLogo from "../pictures/React.png";
 import ComputerGirl from "../pictures/computerGirl.jpeg";
 import CSU from "../pictures/csu_certificate.png"
+import WellsFargo from "../pictures/wells_fargo_cert.png"
 
 import LeftSide from "./LeftSide";
 import RightSide from "./RightSide";
+import Certificates from "./Certificates";
 
 const Home = () => {
   return (
@@ -71,21 +73,12 @@ const Home = () => {
   </div>
 </div>
 
-<div className="Certificates pt-2 pb-4 p-0">
-  <h2>Certificate</h2>
-  <div className="col-md-12">
-    <div className="certificate-item text-center mx-auto">
-    <a href="/public_pics/csu_certificate.png" target="_blank">
-      <img src={CSU} alt="CSU Certificate" className="img-fluid" id="csu" style={{ width: '50%', height: 'auto', borderRadius: 0 }} />
-      </a>
-    </div>
-  </div>
-</div>
+<Certificates/>
 
 
 
             <div className="family pb-5 p-0">
-            <h2>Family</h2>
+            <h2 className="pt-4 pb-2">Family</h2>
             <div className="row" id="1stPics">
               <div className="col-12 col-md-6">
                 <img

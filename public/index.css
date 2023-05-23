@@ -81,7 +81,12 @@ img {
 #aboutMe{
   background-color: #343a40;;
 }
-
+#messageForm{
+  background-color: #343a40;;
+}
+#messageBox{
+  background-color: white;
+}
 #footer {
   background-color: #343a40;
   font-size: 20px;
@@ -124,14 +129,29 @@ img {
 }
 .Certificates {
   text-align: center;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 20px;
-  padding-bottom: 30px;
-  margin-left: 20px;
-  margin-right: 20px;
+  padding: 20px;
+  margin: 20px;
   color: #ffffff;
 }
+
+.carousel .slide img {
+  object-fit: contain;
+  width: 50% !important;
+  height: auto;
+  border-radius: 0;
+}
+
+.carousel .carousel-indicators li {
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+
+.carousel .carousel-indicators .selected {
+  background-color: #000000;
+}
+
 
 .family {
   padding-top: 80px;
