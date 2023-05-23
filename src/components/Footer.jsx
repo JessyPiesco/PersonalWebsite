@@ -13,7 +13,7 @@ const Footer = () => {
         <a href="https://github.com/JessyPiesco" className="text-light">•GitHub</a>
       </span>
       <NavLink className="nav-link" to="/messageForm" style={{ textDecoration: 'underline' }}>
-  Message
+  •Message
 </NavLink>
 
     </div>
