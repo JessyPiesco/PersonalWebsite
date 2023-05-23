@@ -29,11 +29,11 @@ const MessageForm = () => {
   const handleMessageChange = (e) => {
     setMessage(e.target.value);
   };
-  const handleClear=()=>{
-    setName("")
-    setEmail("")
-    setMessage("")
-  }
+  const handleClear = () => {
+    setName("");
+    setEmail("");
+    setMessage("");
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -132,15 +132,21 @@ const MessageForm = () => {
                 ></textarea>
               </div>
               <div className="d-flex justify-content-center mt-3">
-  <button type="submit" className="btn btn-success mx-2">
-    Submit
-  </button>
-  <button onClick={handleClear} className="btn btn-success mx-2">
-    Clear Form
-  </button>
-</div>
-
-
+                <button
+                  type="submit"
+                  onSubmit={handleSubmit}
+                  className="btn btn-success mx-2"
+                >
+                  Submit
+                </button>
+                <button
+                  type="reset"
+                  onClick={handleClear}
+                  className="btn btn-success mx-2"
+                >
+                  Clear Form
+                </button>
+              </div>
             </form>
           </div>
         </div>
