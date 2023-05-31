@@ -3,6 +3,7 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import CSU from "../pictures/csu_certificate.png";
 import WellsFargoCert from "../pictures/wells_fargo_cert.png";
+import google from "../pictures/google_screenshot.png"
 
 const Certificates = () => {
   return (
@@ -19,6 +20,9 @@ const Certificates = () => {
         </div>
         <div>
           <img src={WellsFargoCert} alt="Wells Fargo Certificate" />
+        </div>
+        <div>
+          <img src={google} alt="Google It Fundamentals Certificate" />
         </div>
       </Carousel>
     </div>
