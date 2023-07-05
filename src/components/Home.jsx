@@ -28,7 +28,7 @@ const Home = () => {
               <h2>About Jessy</h2>
               <p>
               As a 37-year-old mother and self-proclaimed geek, I am a Colorado native who finds great joy in playing games, coding, and solving problems. After graduating from FullStack Academy's bootcamp I received a certificate in web development from Colorado State University. I have discovered a passion for coding that allows me to create something from start to finish. Being neurodivergent with ADHD, I face obstacles, but it also provides me with great pattern recognition and a unique perspective. I have a knack for grasping concepts quickly and am skilled at adapting the steps to my own projects. In my past jobs, I have enjoyed training new hires as I work well with others and understand different learning styles to help them learn in their own way. I particularly love backend work and am excited to take on new challenges and achieve new goals in my coding career.<br/><br/>
-              <strong>Current skill building:</strong> <a href="https://itexperience.org/google-career-certificate-scholarship-program/" target="_blank" rel="noopener noreferrer">ITExperience </a> (Google Technical Support Fundamentals), <a href="https://discord.com/channels/1072704389447422056/1096564344633970709" target="_blank" rel="noopener noreferrer"> Discord Quackathon</a>, <a href="https://www.codecademy.com" target="_blank" rel="noopener noreferrer">codeCademy</a> (C++) <br/>
+              <strong>Current skill building:</strong> <a href="https://itexperience.org/google-career-certificate-scholarship-program/" target="_blank" rel="noopener noreferrer">ITExperience </a> (Google IT Support), <a href="https://discord.com/channels/1072704389447422056/1096564344633970709" target="_blank" rel="noopener noreferrer"> Discord Quackathon</a>, <a href="https://www.codecademy.com" target="_blank" rel="noopener noreferrer">codeCademy</a> (C++) <br/>
               <strong>•Favorite Movie:</strong> Startrek 2009  <strong>•Favorite Book:</strong> Wheel of Time Series  <strong>•Favorite Console Game: </strong>Horizon Zero Dawn  <strong>•Favorite Tabletop Game:</strong> Dominion
               </p>
             </div>
@@ -88,17 +88,7 @@ const Home = () => {
                   className="img-fluid"
                 />
                 <p>
-                  Meet Sophia, my beautiful and spunky three-year-old daughter.
-                  Sophia is a bundle of fun-loving energy, and always keeps us
-                  on our toes! She's a bit stubborn at times, but that just adds
-                  to her charm. Sophia is a quick learner and already knows all
-                  her letters and can count up to 20. She's also a whiz at basic
-                  addition! She loves playing games, whether it's Candyland,
-                  video games, or any other kind of game. Sophia is my little
-                  helper in the kitchen, and we love bonding over our shared
-                  love of cooking. She's also an animal lover and loves to talk
-                  about dogs, cats, and even fire alarms! But nothing beats her
-                  favorite activity in the world - going swimming!
+                Meet Sophia, my energetic and bright four-year-old daughter. She's become quite the board game enthusiast, loving tabletop games like Cooties. Sophia's counting, letters, and colors skills have flourished, impressing us with her ability to count up to 30, recognize all of her letters and even write some. She also can identify various shades and hues. She's a helpful little superstar, always eager to lend a hand around the house. Cooking together has become a special bonding activity, and her passion for it continues to grow. Sophia's love for animals extends to dogs, cats, and even fire alarms, which she finds fascinating. But nothing brings her more joy than swimming - she's a true water lover. Watching her grow and develop is an absolute joy for me as a parent.
                 </p>
               </div>
               <div className="col-12 col-md-5">
@@ -108,7 +98,7 @@ const Home = () => {
                   className="img-fluid"
                 />
                 <p>
-                  My husband Justin and I have been happily married for almost 5
+                  My husband Justin and I have been happily married for 5
                   years now. He's a total geek just like me, with a degree in
                   graphic design and a passion for helping me with my coding
                   projects. Together, we love to explore new places and
