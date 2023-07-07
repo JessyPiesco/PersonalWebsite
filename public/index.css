@@ -30,6 +30,17 @@
   color: #f8f9fa !important;
 }
 
+.nav-link.active {
+  text-decoration: underline;
+}
+
+.nav-link:not(.active) {
+  text-decoration: none !important;
+  text-decoration-line: none !important;
+}
+
+
+
 .navbar-brand {
   padding-left: 5%;
   font-size: 30px !important;

@@ -25,7 +25,7 @@ const Home = () => {
           </div>
           <div className="col-12 col-md-8 p-0">
             <div className="about-jessy rounded p-3 mt-3">
-              <h2>About Jessy</h2>
+              <h3>My Story</h3>
               <p>
                 As a 37-year-old mother and self-proclaimed geek, I am a
                 Colorado native with a passion for coding and problem-solving.
@@ -66,8 +66,8 @@ const Home = () => {
                   codeCademy
                 </a>{" "}
                 (C++) <br />
-                <strong>•Favorite Movie:</strong> Startrek 2009{" "}
-                <strong>•Favorite Book:</strong> Wheel of Time Series{" "}
+                <strong>•Favorite Movie:</strong> Star Trek 2009{" "}
+                <strong>•Favorite Book:</strong> The Wheel of Time Series{" "}
                 <strong>•Favorite Console Game: </strong>Horizon Zero Dawn{" "}
                 <strong>•Favorite Tabletop Game:</strong> Dominion
               </p>
