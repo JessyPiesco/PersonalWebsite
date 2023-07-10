@@ -53,6 +53,7 @@ const Projects = () => {
     src={bot}
     alt="bot screen shot"
     className="projectPics ml-3 mr-0 align-self-end"
+    title="Screenshot of Quack Bot"
   />
 </a>
 
@@ -72,12 +73,13 @@ const Projects = () => {
             >
               <p className="proNames">Quack-Bot Repo</p>
             </Button>
-            <h5 className="border-bottom col-4 pt-3">Solar System</h5>
+            <h5 className="border-bottom col-4 pt-3">Solar System*</h5>
             <a href="/public_pics/solarsytem.png" target="_blank">
             <img
               src={space}
               alt="space"
               className="projectPics ml-3 mr-0 align-self-end"
+              title="Screenshot of Solar System"
             />
             </a>
             <div id="solar" className="d-flex align-items-center">
@@ -111,12 +113,13 @@ const Projects = () => {
               <p className="proNames">Solar System's Repo</p>
             </Button>
 
-            <h5 className="border-bottom col-4 pt-3">Accio Books</h5>
+            <h5 className="border-bottom col-4 pt-3">Accio Books*</h5>
             <a href="/public_pics/gryffin_puffs.png" target="_blank">
             <img
               src={gryffinP}
               alt="Book Website"
               className="projectPics ml-3 mr-0 align-self-end"
+              title="Screenshot of Accio Books"
             /></a>
             <div id="puffs" className="d-flex align-items-center">
               <p>
@@ -142,7 +145,7 @@ const Projects = () => {
                 (window.location.href = "https://acciobooks.onrender.com/")
               }
             >
-              <p className="proNames">Accio Books</p>
+              <p className="proNames">Accio Books*</p>
             </Button>
             <Button
               variant="outline-secondary"
@@ -161,6 +164,7 @@ const Projects = () => {
               src={snake}
               alt="snake_game"
               className="projectPics ml-3 mr-0 align-self-end"
+              title="Screenshot of Snake game"
             /></a>
             <div id="snake" className="d-flex align-items-center">
               <p>
@@ -193,6 +197,10 @@ const Projects = () => {
               <p className="proNames">Snake Repo</p>
             </Button>
           </div>
+          <h6 style={{ fontSize: '0.8rem', color: 'gray' }}>
+  *These items were originally connected to a database, but due to financial constraints, they are currently not deployed. To experience the full functionality of the site, please refer to the instructions provided in the README file to deploy it locally.
+</h6>
+
 
           <h3 className="Ptitles text-center border-bottom pb-3">Check out my other projects</h3>
 <div className="pb-5">
@@ -227,7 +235,9 @@ const Projects = () => {
     />
   </p>
 </Button>
+
             </div>
+
 
           </div>
 

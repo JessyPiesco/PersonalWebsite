@@ -83,6 +83,7 @@ const Home = () => {
                         alt="JavaScript Logo"
                         className="img-fluid"
                         id="js"
+                        title="JavaScript"
                       />
                     </div>
                   </div>
@@ -93,6 +94,7 @@ const Home = () => {
                         alt="Bootstrap Logo"
                         className="img-fluid"
                         id="bs"
+                        title="Bootstrap"
                       />
                     </div>
                   </div>
@@ -103,6 +105,7 @@ const Home = () => {
                         alt="React Logo"
                         className="img-fluid"
                         id="rl"
+                        title="React"
                       />
                     </div>
                   </div>
@@ -113,6 +116,7 @@ const Home = () => {
                         alt="CSS Logo"
                         className="img-fluid"
                         id="css"
+                        title="CSS"
                       />
                     </div>
                   </div>
@@ -125,6 +129,7 @@ const Home = () => {
                         alt="PostgreSQL Logo"
                         className="img-fluid"
                         id="psql"
+                        title="Postgres"
                       />
                     </div>
                   </div>
@@ -136,6 +141,7 @@ const Home = () => {
                         alt="HTML Logo"
                         className="img-fluid"
                         id="html"
+                        title="HTML"
                       />
                     </div>
                   </div>
