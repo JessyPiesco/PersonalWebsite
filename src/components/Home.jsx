@@ -29,15 +29,15 @@ const Home = () => {
               <p>
                 As a 37-year-old mother and self-proclaimed geek, I am a
                 Colorado native with a passion for coding and problem-solving.
-                With a certificate in web development from FullStack Academy through CSU, I
-                thrive on creating projects from start to finish. Despite facing
-                obstacles as a neurodivergent individual with ADHD, I possess
-                strong pattern recognition and a unique perspective that aids in
-                my quick grasp of concepts. Adaptability is one of my strengths,
-                allowing me to tailor steps and approaches to my own projects.
-                In previous roles, I have found joy in training new hires,
-                leveraging my ability to work well with others and accommodate
-                different learning styles.
+                With a certificate in web development from FullStack Academy
+                through CSU, I thrive on creating projects from start to finish.
+                Despite facing obstacles as a neurodivergent individual with
+                ADHD, I possess strong pattern recognition and a unique
+                perspective that aids in my quick grasp of concepts.
+                Adaptability is one of my strengths, allowing me to tailor steps
+                and approaches to my own projects. In previous roles, I have
+                found joy in training new hires, leveraging my ability to work
+                well with others and accommodate different learning styles.
                 <br />
                 <br />
                 <strong>Current skill building:</strong>{" "}
@@ -150,6 +150,14 @@ const Home = () => {
             </div>
 
             <Certificates />
+
+            <div className="about-jessy rounded p-3 mt-3 mb-5 mt-5">
+              <h2 className="text-center">Volunteer</h2>
+              <h5 className="text-center">National Celiac Association - Denver Chapter: Social Media Manager</h5>
+              <p className="text-center">
+              As a social media manager, I perform essential tasks to ensure effective online presence and engagement. These duties included content creation, strategic scheduling of posts, and actively engaging with the online community.
+              </p>
+            </div>
 
             <div className="family pb-5 p-0">
               <h2 className="pt-4 pb-2">Family</h2>
