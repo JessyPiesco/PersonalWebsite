@@ -38,8 +38,8 @@ const Home = () => {
                 and approaches to my own projects. In previous roles, I have
                 found joy in training new hires, leveraging my ability to work
                 well with others and accommodate different learning styles.
-                <br />
-                <br />
+
+                <div className="pt-3 pb-0">
                 <strong>Current skill building:</strong>{" "}
                 <a
                   href="https://itexperience.org/google-career-certificate-scholarship-program/"
@@ -65,11 +65,15 @@ const Home = () => {
                 >
                   codeCademy
                 </a>{" "}
-                (C++) <br />
+                (C++) </div>
+
+                <div className="pt-2 pb-0">
                 <strong>•Favorite Movie:</strong> Star Trek 2009{" "}
                 <strong>•Favorite Book:</strong> The Wheel of Time Series{" "}
+                <br/>
                 <strong>•Favorite Console Game: </strong>Horizon Zero Dawn{" "}
                 <strong>•Favorite Tabletop Game:</strong> Dominion
+                </div>
               </p>
             </div>
             <div className="logos pt-2 pb-4 p-0">
@@ -152,10 +156,16 @@ const Home = () => {
             <Certificates />
 
             <div className="about-jessy rounded p-3 mt-3 mb-5 mt-5">
-              <h2 className="text-center">Volunteer</h2>
-              <h5 className="text-center">National Celiac Association - Denver Chapter: Social Media Manager</h5>
+              <h3 className="text-center">Volunteer Work</h3>
+              <h5 className="text-center">
+                Social Media Manager - National Celiac Association, Denver
+                Chapter
+              </h5>
               <p className="text-center">
-              As a social media manager, I perform essential tasks to ensure effective online presence and engagement. These duties included content creation, strategic scheduling of posts, and actively engaging with the online community.
+                As a social media manager, I perform essential tasks to ensure
+                effective online presence and engagement. These duties included
+                content creation, strategic scheduling of posts, and actively
+                engaging with the online community.
               </p>
             </div>
 
