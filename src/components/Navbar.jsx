@@ -38,7 +38,7 @@ return (
           activeClassName="active"
           exact to={"/"}
         >
-          About Me
+          HOME
         </NavLink>
 
         <NavLink
@@ -46,7 +46,7 @@ return (
           activeClassName="active"
           to={"/projects"}
         >
-          Portfolio
+          PORTFOLIO
         </NavLink>
 
       </div>

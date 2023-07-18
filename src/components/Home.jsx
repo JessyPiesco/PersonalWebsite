@@ -10,10 +10,13 @@ import ReactLogo from "../pictures/React.png";
 import ComputerGirl from "../pictures/computerGirl.jpeg";
 import CSU from "../pictures/csu_certificate.png";
 import WellsFargo from "../pictures/wells_fargo_cert.png";
+import Corks2 from "../pictures/corksScreenShot.png";
 
 import LeftSide from "./LeftSide";
 import RightSide from "./RightSide";
 import Certificates from "./Certificates";
+
+import { NavLink } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -38,41 +41,40 @@ const Home = () => {
                 and approaches to my own projects. In previous roles, I have
                 found joy in training new hires, leveraging my ability to work
                 well with others and accommodate different learning styles.
-
                 <div className="pt-3 pb-0">
-                <strong>Current skill building:</strong>{" "}
-                <a
-                  href="https://itexperience.org/google-career-certificate-scholarship-program/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  ITExperience{" "}
-                </a>{" "}
-                (Google IT Support),{" "}
-                <a
-                  href="https://discord.com/channels/1072704389447422056/1096564344633970709"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  Discord Quackathon
-                </a>
-                ,{" "}
-                <a
-                  href="https://www.codecademy.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  codeCademy
-                </a>{" "}
-                (C++) </div>
-
+                  <strong>Current skill building:</strong>{" "}
+                  <a
+                    href="https://itexperience.org/google-career-certificate-scholarship-program/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    ITExperience{" "}
+                  </a>{" "}
+                  (Google IT Support),{" "}
+                  <a
+                    href="https://discord.com/channels/1072704389447422056/1096564344633970709"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {" "}
+                    Discord Quackathon
+                  </a>
+                  ,{" "}
+                  <a
+                    href="https://www.codecademy.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    codeCademy
+                  </a>{" "}
+                  (C++){" "}
+                </div>
                 <div className="pt-2 pb-0">
-                <strong>•Favorite Movie:</strong> Star Trek 2009{" "}
-                <strong>•Favorite Book:</strong> The Wheel of Time Series{" "}
-                <br/>
-                <strong>•Favorite Console Game: </strong>Horizon Zero Dawn{" "}
-                <strong>•Favorite Tabletop Game:</strong> Dominion
+                  <strong>•Favorite Movie:</strong> Star Trek 2009{" "}
+                  <strong>•Favorite Book:</strong> The Wheel of Time Series{" "}
+                  <br />
+                  <strong>•Favorite Console Game: </strong>Horizon Zero Dawn{" "}
+                  <strong>•Favorite Tabletop Game:</strong> Dominion
                 </div>
               </p>
             </div>
@@ -153,7 +155,48 @@ const Home = () => {
               </div>
             </div>
 
-            <Certificates />
+
+
+            <div className="featured-project" style={{ border: "1px solid greenyellow", margin:"2%" }}>
+  <h3>Featured Project</h3>
+  <h5>C.O.R.K.S</h5>
+  <p>
+    This project was born from an idea that sparked even before I embarked on my coding journey.
+    Have you ever felt the excitement of buying a new wine, eager to try something different, only to discover it was far from your liking?
+    With CORKS, you can now follow your friends and family to see the wines they've enjoyed, helping you make informed decisions on what to try (or avoid).
+    Connect with fellow wine lovers across the USA who share similar tastes to your own.
+    Explore, discover, and enhance your wine experience with CORKS!
+  </p>
+  <a href="https://github.com/The-winos" target="_blank" rel="noopener noreferrer">
+    <img
+      src={Corks2}
+      alt="Corks site picture"
+      style={{
+        width: "calc(100% - 2%)", // Subtracting 2% from the width to account for the margin on both sides
+        margin: "0 1%",
+        borderRadius: "0",
+        cursor: "pointer",
+      }}
+    />
+  </a>
+
+  <p>
+    <br/>
+    ~Discover a variety of projects in my&nbsp;
+    <NavLink
+      className="nav-link underline-link"
+      activeClassName="active"
+      to="/projects"
+      style={{ display: "inline" }}
+    >
+      Portfolio~
+    </NavLink>
+    &nbsp;
+  </p>
+</div>
+
+<Certificates />
+
 
             <div className="about-jessy rounded p-3 mt-3 mb-5 mt-5">
               <h3 className="text-center">Volunteer Work</h3>

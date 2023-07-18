@@ -191,7 +191,20 @@ img {
   padding: 20px;
   margin: 20px;
   color: #ffffff;
+  margin-top: 40px !important;
 }
+
+.featured-project{
+  text-align: center;
+  color: #ffffff;
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 1%;
+  margin-bottom: 10%;
+}
+
+
 
 .carousel .slide img {
   object-fit: contain;
